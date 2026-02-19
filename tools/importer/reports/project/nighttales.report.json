@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/nighttales",
+  "path": "project/nighttales",
+  "timestamp": "2026-02-19T04:26:02.290Z",
+  "title": "Nighttales - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.studiodado.com/"
+      ],
+      "description": "Studio Dado homepage with hero, intro columns, featured projects cards, blog cards, and about columns sections",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            ".hero-section"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            "#intro .site-grid",
+            "section:has(h2:contains('Studio')) .site-grid"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".project-card",
+            ".hover-article"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "project-detail",
+      "urls": [
+        "https://www.studiodado.com/project/grand-atrium",
+        "https://www.studiodado.com/project/the-observation-lounge",
+        "https://www.studiodado.com/project/loft-comedy-club",
+        "https://www.studiodado.com/project/penrose-atrium",
+        "https://www.studiodado.com/project/regent-suite-2",
+        "https://www.studiodado.com/project/swirl",
+        "https://www.studiodado.com/project/goodtimes",
+        "https://www.studiodado.com/project/nighttales",
+        "https://www.studiodado.com/project/le-bistro",
+        "https://www.studiodado.com/project/grandeur-spa-and-pool-deck",
+        "https://www.studiodado.com/project/prestige-owner-suite",
+        "https://www.studiodado.com/project/commodore-room",
+        "https://www.studiodado.com/project/vista-suite",
+        "https://www.studiodado.com/project/vista-suite-allura",
+        "https://www.studiodado.com/project/serene-spa-and-wellness",
+        "https://www.studiodado.com/project/privee",
+        "https://www.studiodado.com/project/starlight-atrium",
+        "https://www.studiodado.com/project/syd-normans",
+        "https://www.studiodado.com/project/onda-by-scarpetta",
+        "https://www.studiodado.com/project/pacific-rim",
+        "https://www.studiodado.com/project/los-lobos",
+        "https://www.studiodado.com/project/vista-pool-deck",
+        "https://www.studiodado.com/project/oceania-suite",
+        "https://www.studiodado.com/project/grandeur-grand-suite",
+        "https://www.studiodado.com/project/acl-grand-suite",
+        "https://www.studiodado.com/project/observation-lounge",
+        "https://www.studiodado.com/project/insignia-atrium",
+        "https://www.studiodado.com/project/grand-bar",
+        "https://www.studiodado.com/project/library",
+        "https://www.studiodado.com/project/prestige-regent-suite-2",
+        "https://www.studiodado.com/project/aquamar-spa-and-wellness",
+        "https://www.studiodado.com/project/polo-grill",
+        "https://www.studiodado.com/project/grandeur-guest-suite",
+        "https://www.studiodado.com/project/red-ginger",
+        "https://www.studiodado.com/project/atrium",
+        "https://www.studiodado.com/project/vista-penthouse-suite",
+        "https://www.studiodado.com/project/prestige-loft-suite",
+        "https://www.studiodado.com/project/oceania-penthouse-suite",
+        "https://www.studiodado.com/project/founders-bar",
+        "https://www.studiodado.com/project/loews-vantana-canyon-resort",
+        "https://www.studiodado.com/project/ocean-blue",
+        "https://www.studiodado.com/project/toscana",
+        "https://www.studiodado.com/project/grand-dining-room",
+        "https://www.studiodado.com/project/chartreuse",
+        "https://www.studiodado.com/project/cagneys",
+        "https://www.studiodado.com/project/ember",
+        "https://www.studiodado.com/project/grandeur-regent-suite",
+        "https://www.studiodado.com/project/veranda-suite",
+        "https://www.studiodado.com/project/allura-vista-suite",
+        "https://www.studiodado.com/project/martini-lounge",
+        "https://www.studiodado.com/project/meridian-lounge",
+        "https://www.studiodado.com/project/social-comedy-club",
+        "https://www.studiodado.com/project/prime-7"
+      ],
+      "description": "Project detail page with title, subtitle/category columns, hero image, alternating text columns and gallery images, and next project navigation",
+      "blocks": [
+        {
+          "name": "project-header",
+          "instances": [
+            ".site-grid.site-max[class*='gap-y-80']"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            ".site-max[class*='gap-y-20'].site-grid"
+          ]
+        },
+        {
+          "name": "next-project",
+          "instances": [
+            "section.js-next-project, section[class*='300vh']"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blog-article",
+      "urls": [
+        "https://www.studiodado.com/blog/miami-design/",
+        "https://www.studiodado.com/blog/2023-travel-trends-with-staying-power/",
+        "https://www.studiodado.com/blog/every-last-millimeter-stateroom-design-as-art-and-science/",
+        "https://www.studiodado.com/blog/3-things-land-based-hotels-can-learn-from-cruise-ships/",
+        "https://www.studiodado.com/blog/living-the-cruise-ship-life/",
+        "https://www.studiodado.com/blog/travel-leisure-celebrates-dados-incredible-design-for-seven-seas-prestige-owners-suite/",
+        "https://www.studiodado.com/blog/form-follows-feeling/",
+        "https://www.studiodado.com/blog/the-white-lotus-effect/",
+        "https://www.studiodado.com/blog/first-in-class-the-penrose-atrium-ncl-prima/",
+        "https://www.studiodado.com/blog/maximalism-in-hospitality-design/"
+      ],
+      "description": "Blog article with header (label, date, title), hero image, long-form body text with H2 subheadings, inline images, blockquote, and related articles cards",
+      "blocks": [
+        {
+          "name": "blog-header",
+          "instances": [
+            ".site-grid.site-max[class*='gap-y-80']"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".blog-grid, [class*='hover-article']"
+          ]
+        }
+      ]
+    }
+  ]
+}

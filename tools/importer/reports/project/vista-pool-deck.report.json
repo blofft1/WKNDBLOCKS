@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/vista-pool-deck",
+  "path": "project/vista-pool-deck",
+  "timestamp": "2026-02-19T04:27:05.553Z",
+  "title": "Vista Pool Deck - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "next-project"
+  ]
+}

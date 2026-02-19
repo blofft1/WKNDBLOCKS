@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/acl-grand-suite",
+  "path": "project/acl-grand-suite",
+  "timestamp": "2026-02-19T04:27:19.594Z",
+  "title": "American Cruise Line Grand Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

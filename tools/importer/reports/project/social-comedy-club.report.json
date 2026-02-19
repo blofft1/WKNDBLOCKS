@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/social-comedy-club",
+  "path": "project/social-comedy-club",
+  "timestamp": "2026-02-19T04:29:36.343Z",
+  "title": "Social Comedy Club - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

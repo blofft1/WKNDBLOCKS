@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/aquamar-spa-and-wellness",
+  "path": "project/aquamar-spa-and-wellness",
+  "timestamp": "2026-02-19T04:27:54.838Z",
+  "title": "Aquamar Spa and Wellness - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}

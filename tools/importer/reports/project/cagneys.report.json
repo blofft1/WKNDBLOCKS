@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/cagneys",
+  "path": "project/cagneys",
+  "timestamp": "2026-02-19T04:29:02.146Z",
+  "title": "Cagney's - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

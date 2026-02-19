@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/syd-normans",
+  "path": "project/syd-normans",
+  "timestamp": "2026-02-19T04:26:46.252Z",
+  "title": "Syd Norman's Pour House - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

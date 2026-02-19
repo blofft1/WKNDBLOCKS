@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/grandeur-spa-and-pool-deck",
+  "path": "project/grandeur-spa-and-pool-deck",
+  "timestamp": "2026-02-19T04:26:10.475Z",
+  "title": "Seven Seas Grandeur Spa and Pool Deck - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/library",
+  "path": "project/library",
+  "timestamp": "2026-02-19T04:27:39.318Z",
+  "title": "Library - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

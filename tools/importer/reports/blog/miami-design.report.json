@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/blog/miami-design/",
+  "path": "blog/miami-design",
+  "timestamp": "2026-02-19T04:30:52.842Z",
+  "title": "Miami Design: How the City Became a Global Capital of Culture, Cuisine, and Creativity - Studio Dado",
+  "template": "blog-article",
+  "blocks": [
+    "cards",
+    "cards",
+    "cards"
+  ]
+}

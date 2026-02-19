@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/loft-comedy-club",
+  "path": "project/loft-comedy-club",
+  "timestamp": "2026-02-19T04:25:37.246Z",
+  "title": "Loft Comedy Club - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

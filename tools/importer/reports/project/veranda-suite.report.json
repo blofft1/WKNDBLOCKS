@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/veranda-suite",
+  "path": "project/veranda-suite",
+  "timestamp": "2026-02-19T04:29:16.607Z",
+  "title": "Veranda Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

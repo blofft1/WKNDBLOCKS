@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/grandeur-regent-suite",
+  "path": "project/grandeur-regent-suite",
+  "timestamp": "2026-02-19T04:29:11.793Z",
+  "title": "Grandeur Regent Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

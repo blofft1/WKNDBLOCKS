@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/the-observation-lounge",
+  "path": "project/the-observation-lounge",
+  "timestamp": "2026-02-19T04:25:32.267Z",
+  "title": "The Observation Lounge - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

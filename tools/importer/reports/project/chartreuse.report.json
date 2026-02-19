@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/chartreuse",
+  "path": "project/chartreuse",
+  "timestamp": "2026-02-19T04:28:58.246Z",
+  "title": "Chartreuse - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

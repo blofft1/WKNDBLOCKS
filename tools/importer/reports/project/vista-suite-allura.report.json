@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/vista-suite-allura",
+  "path": "project/vista-suite-allura",
+  "timestamp": "2026-02-19T04:26:28.427Z",
+  "title": "Vista Suite Allura - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

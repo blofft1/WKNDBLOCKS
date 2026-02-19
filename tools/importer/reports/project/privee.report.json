@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/privee",
+  "path": "project/privee",
+  "timestamp": "2026-02-19T04:26:37.980Z",
+  "title": "Privee - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

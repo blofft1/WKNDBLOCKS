@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/insignia-atrium",
+  "path": "project/insignia-atrium",
+  "timestamp": "2026-02-19T04:27:29.903Z",
+  "title": "Insignia Atrium - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

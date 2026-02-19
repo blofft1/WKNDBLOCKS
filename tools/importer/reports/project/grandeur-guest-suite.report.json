@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/grandeur-guest-suite",
+  "path": "project/grandeur-guest-suite",
+  "timestamp": "2026-02-19T04:28:05.430Z",
+  "title": "Grandeur Guest Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

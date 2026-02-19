@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/grand-atrium",
+  "path": "project/grand-atrium",
+  "timestamp": "2026-02-19T04:27:43.829Z",
+  "title": "Grand Atrium - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}

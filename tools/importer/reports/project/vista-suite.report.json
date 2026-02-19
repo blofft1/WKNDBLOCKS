@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/vista-suite",
+  "path": "project/vista-suite",
+  "timestamp": "2026-02-19T04:26:24.710Z",
+  "title": "Vista Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

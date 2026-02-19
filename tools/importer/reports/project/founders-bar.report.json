@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/founders-bar",
+  "path": "project/founders-bar",
+  "timestamp": "2026-02-19T04:28:33.503Z",
+  "title": "Founder's Bar - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

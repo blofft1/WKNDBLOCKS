@@ -1,27 +1,28 @@
+/* Hero block — Studio Dado style
+ * Full-bleed background image with large display heading overlay
+ */
+
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
 }
 
-.hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+.hero-container {
+  padding: 0;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem var(--content-padding);
 }
 
 .hero picture {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
 }
 
 .hero img {
@@ -30,8 +31,22 @@
   height: 100%;
 }
 
+.hero h1 {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  max-width: 1400px;
+}
+
+@media (width >= 600px) {
+  .hero {
+    min-height: 70vh;
+  }
+}
+
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    min-height: 80vh;
+    padding: 3rem var(--content-padding);
   }
 }

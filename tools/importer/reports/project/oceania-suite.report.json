@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/oceania-suite",
+  "path": "project/oceania-suite",
+  "timestamp": "2026-02-19T04:27:10.356Z",
+  "title": "Oceania Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

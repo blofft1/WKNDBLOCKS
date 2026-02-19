@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/red-ginger",
+  "path": "project/red-ginger",
+  "timestamp": "2026-02-19T04:28:10.536Z",
+  "title": "Red Ginger - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

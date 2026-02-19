@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/prestige-loft-suite",
+  "path": "project/prestige-loft-suite",
+  "timestamp": "2026-02-19T04:28:22.831Z",
+  "title": "Prestige Loft Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

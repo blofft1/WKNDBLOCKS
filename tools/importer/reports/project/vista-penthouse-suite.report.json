@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/vista-penthouse-suite",
+  "path": "project/vista-penthouse-suite",
+  "timestamp": "2026-02-19T04:28:18.517Z",
+  "title": "Vista Penthouse Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

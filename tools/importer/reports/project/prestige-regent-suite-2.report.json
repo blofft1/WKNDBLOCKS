@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/prestige-regent-suite-2",
+  "path": "project/prestige-regent-suite-2",
+  "timestamp": "2026-02-19T04:27:48.998Z",
+  "title": "Prestige Regent Suite - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}

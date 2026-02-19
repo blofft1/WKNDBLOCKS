@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/swirl",
+  "path": "project/swirl",
+  "timestamp": "2026-02-19T04:25:52.560Z",
+  "title": "Swirl - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

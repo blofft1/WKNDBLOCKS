@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/grand-dining-room",
+  "path": "project/grand-dining-room",
+  "timestamp": "2026-02-19T04:28:54.204Z",
+  "title": "Grand Dining Room - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "next-project"
+  ]
+}

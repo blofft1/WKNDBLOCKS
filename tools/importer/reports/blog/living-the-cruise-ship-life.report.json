@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/blog/living-the-cruise-ship-life/",
+  "path": "blog/living-the-cruise-ship-life",
+  "timestamp": "2026-02-19T04:30:37.743Z",
+  "title": "Living the Cruise Ship Life - Studio Dado",
+  "template": "blog-article",
+  "blocks": [
+    "cards",
+    "cards",
+    "cards"
+  ]
+}

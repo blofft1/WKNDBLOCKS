@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/loews-vantana-canyon-resort",
+  "path": "project/loews-vantana-canyon-resort",
+  "timestamp": "2026-02-19T04:28:37.806Z",
+  "title": "Loews Vantana Canyon Resort - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}

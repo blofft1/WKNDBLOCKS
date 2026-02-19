@@ -1,72 +1,61 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * Studio Dado — Global Design System
+ * Migrated from https://www.studiodado.com/
  *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Fonts: ABC Arizona Flare (display), AppDADO (body)
+ * Palette: White sections, brown (#5d5346) accents, black text
  */
 
 :root {
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --background-color: #fff;
+  --light-color: #f5f4f2;
+  --dark-color: #5d5346;
+  --text-color: #000;
+  --link-color: #000;
+  --link-hover-color: #5d5346;
+  --brand-brown: #5d5346;
+  --brand-dark: #1b1b1c;
+  --muted-opacity: 0.35;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: 'AppDADO', 'AppDADO-fallback', sans-serif;
+  --heading-font-family: 'ABC Arizona Flare', 'ABC Arizona Flare-fallback', 'Times New Roman', serif;
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-m: 1rem;
+  --body-font-size-s: 0.875rem;
+  --body-font-size-xs: 0.75rem;
+  --body-font-size-l: 1.5rem;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  /* heading sizes — fluid display type */
+  --heading-font-size-xxl: clamp(3rem, 8vw, 9.7rem);
+  --heading-font-size-xl: clamp(2.25rem, 4.67vw, 4.2rem);
+  --heading-font-size-l: 1.8rem;
+  --heading-font-size-m: 1.2rem;
+  --heading-font-size-s: 1rem;
+  --heading-font-size-xs: 0.875rem;
+
+  /* spacing */
+  --section-spacing: clamp(3rem, 6vw, 6rem);
+  --content-padding: 1.2rem;
 
   /* nav height */
   --nav-height: 64px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
+/* fallback fonts defined in fonts.css */
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+@media (width >= 600px) {
+  :root {
+    --content-padding: 1.5rem;
+  }
 }
 
 @media (width >= 900px) {
   :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --body-font-size-l: 1.8rem;
+    --content-padding: 2rem;
   }
 }
 
@@ -77,7 +66,9 @@ body {
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 body.appear {
@@ -98,26 +89,59 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
+/* headings — display font, uppercase */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
   scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
+h1,
+h2 {
+  font-family: var(--heading-font-family);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.8;
+}
+
+h1 {
+  font-size: var(--heading-font-size-xxl);
+}
+
+h2 {
+  font-size: var(--heading-font-size-xxl);
+}
+
+h3 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-m);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h4 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-m);
+  line-height: 1.2;
+}
+
+h5 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-s);
+  line-height: 1.2;
+}
+
+h6 {
+  font-family: var(--body-font-family);
+  font-size: var(--heading-font-size-xs);
+  line-height: 1.2;
+}
 
 p,
 dl,
@@ -125,8 +149,12 @@ ol,
 ul,
 pre,
 blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 1.2;
 }
 
 code,
@@ -142,8 +170,9 @@ pre {
   white-space: pre;
 }
 
+/* layout */
 main > div {
-  margin: 40px 16px;
+  margin: 0 var(--content-padding);
 }
 
 input,
@@ -162,38 +191,51 @@ a:any-link {
 
 a:hover {
   color: var(--link-hover-color);
-  text-decoration: underline;
 }
 
-/* buttons */
+/* buttons — styled as arrow-links matching Studio Dado CTA pattern */
 a.button:any-link,
 button {
   box-sizing: border-box;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
   max-width: 100%;
-  margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  padding: 0;
   font-family: var(--body-font-family);
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.25;
-  text-align: center;
+  font-weight: 400;
+  font-size: var(--body-font-size-m);
+  line-height: 1.2;
+  text-align: left;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: transparent;
+  color: var(--text-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
+a.button::after {
+  content: '\2192';
+  transition: transform 0.3s ease;
+}
+
+a.button:hover::after,
+a.button:focus::after {
+  transform: translateX(0.3em);
+}
+
 a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: transparent;
+  color: var(--link-hover-color);
   cursor: pointer;
 }
 
@@ -205,8 +247,8 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
+  background-color: transparent;
+  border: none;
   color: var(--text-color);
 }
 
@@ -229,29 +271,40 @@ main img {
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+  padding: var(--section-spacing) 0;
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
-  padding: 0 24px;
+  padding: 0 var(--content-padding);
 }
 
 main > .section:first-of-type {
-  margin-top: 0;
+  padding-top: 0;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
-}
-
-/* section metadata */
+/* section metadata variants */
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+}
+
+main .section.dark {
+  background-color: var(--brand-brown);
+  color: #fff;
+}
+
+main .section.dark a:any-link {
+  color: #fff;
+}
+
+main .section.dark a.button:any-link {
+  color: #fff;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3 {
+  color: #fff;
 }

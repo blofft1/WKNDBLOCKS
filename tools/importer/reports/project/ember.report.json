@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/ember",
+  "path": "project/ember",
+  "timestamp": "2026-02-19T04:29:06.121Z",
+  "title": "Ember, An American Bistro - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}

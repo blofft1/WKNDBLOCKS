@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.studiodado.com/project/regent-suite-2",
+  "path": "project/regent-suite-2",
+  "timestamp": "2026-02-19T04:25:47.483Z",
+  "title": "Regent Suite 2 - Studio Dado",
+  "template": "project-detail",
+  "blocks": [
+    "project-header",
+    "columns",
+    "columns",
+    "next-project"
+  ]
+}
