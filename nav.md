@@ -1,13 +1,13 @@
-- [Studio DADO](/content/)
+- [Studio DADO](/)
 
 ---
 
-- [Projects](/content/projects)
-- [Approach](/content/approach)
-- [About Us](/content/about-us)
-- [News](/content/news)
-- [Blog](/content/blog)
+- [Projects](/projects)
+- [Approach](/approach)
+- [About Us](/about-us)
+- [News](/news)
+- [Blog](/blog)
 
 ---
 
-- [Contact](/content/contact)
+- [Contact](/contact)
